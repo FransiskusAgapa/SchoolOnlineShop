@@ -1,0 +1,180 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- load Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <div class="row">
+        <!-- <div class="col-md-1">col-md-1</div>
+        <div class="col-md-2">col-md-2</div>
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-4">col-md-4</div>
+        <div class="col-md-offset-2">Offset</div> -->
+      </div>
+      <div class="row">
+        <div class="col-md-4 header-text">
+          <h1>CollegeShop</h1>
+        </div>
+        <div class="col-md-2 nav-btn">
+          <button>Home</button>
+        </div>
+        <div class="col-md-2 nav-btn dropdown">
+          <!--1st opt-->
+          <!-- <a
+          class="btn btn-secondary dropdown-toggle"
+          href="#"
+          role="button"
+          id="dropdownMenuLink"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Collection
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul> -->
+          <!--2nd opt-->
+          <select class="dropdown">
+            <option href="#">Collection</option>
+            <option href="#">T-shirts & Jackets</option>
+            <option href="#">Shorts & Joggers</option>
+            <option href="#">Accessories</option>
+          </select>
+        </div>
+        <div class="col-md-2 nav-btn">
+          <button>About</button>
+        </div>
+        <div class="col-md nav-btn">
+          <button>Log In</button>
+        </div>
+        <div class="col-md nav-btn">
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <!--content section-->
+    <div class="row content-box">
+      <div class="col-md-5 icon-box">
+        <img
+          class="product-icon"
+          src="./assets/previewTshirtMen.png"
+          alt="men t-shirts"
+        />
+      </div>
+      <div class="col-md-7 product-buy">
+        <h2 class="col-md-8 offset-2 product-name"><span style="font-style: italic;">Man T-Shirts</span></h2>
+        <select class="col-md-8 offset-2 pick-size">
+          <option>Size</option>
+          <option>S</option>
+          <option>M</option>
+          <option>X</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+        <div class="col-md-8 offset-2 price-quantity">
+          <div class="col-md-3 price">
+            <p >Price</p>
+            <h3>$10.5</h3>
+        </div>
+        <div class="col-md-3 quantity">
+             <p>Quantity
+                <select class="quantity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+             </p>
+        </div>
+      </div>
+        <button class="col-md-8 offset-2 add-to-cart">Add To Cart</button>
+        <button class="col-md-8 offset-2 buy-now">Buy Now</button>
+    </div>
+    <div class="col-md-5 icon-box">
+        <img
+          class="product-icon"
+          src="./assets/previewShortsMen.png"
+          alt="men t-shirts"
+        />
+      </div>
+      <div class="col-md-7 product-buy">
+        <h2 class="col-md-8 offset-2 product-name"><span style="font-style: italic;">Man Shorts</span></h2>
+        <select class="col-md-8 offset-2 pick-size">
+          <option>Size</option>
+          <option>S</option>
+          <option>M</option>
+          <option>X</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+        <div class="col-md-8 offset-2 price-quantity">
+          <div class="col-md-3 price">
+            <p >Price</p>
+            <h3><span style="font-style: italic;">$9</span></h3>
+        </div>
+        <div class="col-md-3 quantity">
+             <p>Quantity
+                <select class="quantity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+             </p>
+        </div>
+      </div>
+        <button class="col-md-8 offset-2 add-to-cart">Add To Cart</button>
+        <button class="col-md-8 offset-2 buy-now">Buy Now</button>
+    </div>
+    <div class="col-md-5 icon-box">
+        <img
+          class="product-icon"
+          src="./assets/previewHatsMen.png"
+          alt="men t-shirts"
+        />
+      </div>
+      <div class="col-md-7 product-buy">
+        <h2 class="col-md-8 offset-2 product-name"><span style="font-style: italic;">Man Hats</span></h2>
+        <select class="col-md-8 offset-2 pick-size">
+          <option>Size</option>
+          <option>S</option>
+          <option>M</option>
+          <option>X</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+        <div class="col-md-8 offset-2 price-quantity">
+          <div class="col-md-3 price">
+            <p >Price</p>
+            <h3><span style="font-style: italic;">$8</span></h3>
+        </div>
+        <div class="col-md-3 quantity">
+             <p>Quantity
+                <select class="quantity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+             </p>
+        </div>
+      </div>
+        <button class="col-md-8 offset-2 add-to-cart">Add To Cart</button>
+        <button class="col-md-8 offset-2 buy-now">Buy Now</button>
+    </div>
+  </div>
+</body>

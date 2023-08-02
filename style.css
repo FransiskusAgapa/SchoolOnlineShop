@@ -16,7 +16,7 @@
 .col {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .col-md {
@@ -40,7 +40,7 @@
 }
 
 .col-md-offset-2 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* school img */
@@ -63,11 +63,23 @@ select {
   align-items: center;
 }
 
+.col-md > button,
+.col-md-2 > button {
+  height: 60%;
+  border: none;
+}
+
 /**  content section **/
 .content-box {
   padding-top: 1%;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+/* sub content */
+.sub-content {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 
 .col-md-5,

@@ -24,7 +24,7 @@
 }
 
 .col-md-1 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .col-md-2 {
@@ -41,6 +41,12 @@
 
 .col-md-offset-2 {
   border: 1px solid red;
+}
+
+/* school img */
+.school-img {
+  border-radius: 10px;
+  margin-right: 4%;
 }
 
 /* collection dropdown */
@@ -70,7 +76,7 @@ select {
 }
 
 .icon-box {
-  border: 1px solid blue;
+  border: 1px solid black;
 }
 
 .icon-box > img {
